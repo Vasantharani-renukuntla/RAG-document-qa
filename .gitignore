@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Streamlit local storage
+.streamlit/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+.venv/
